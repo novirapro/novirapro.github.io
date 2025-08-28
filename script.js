@@ -29,7 +29,7 @@ if (form) {
     e.preventDefault(); // Empêche la soumission normale
 
     // Affiche le message "en attente"
-    if (statusEl) statusEl.textContent = "Patienter s'il vous plaît...";
+    if (statusEl) statusEl.textContent = "Please wait...";
 
     // Récupère les valeurs du formulaire
     const params = {
