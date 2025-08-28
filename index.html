@@ -1,0 +1,229 @@
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Digital Agency — Coding & Video Editing</title>
+  <meta name="description" content="Digital agency specialized in web development and video editing.">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- JS -->
+    <!-- EmailJS -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js" defer></script>
+
+    <!-- Ton script -->
+    <script src="script.js" defer></script>
+
+
+</head>
+<body>
+
+<a href="#content" class="skip-link">Go to content</a>
+
+<!-- Header -->
+<header class="header">
+  <div class="container nav">
+    <a class="brand cluster" href="#">
+      <svg width="20" height="20" viewBox="0 0 24 24">
+        <path d="M12 2c1.7 0 3.1 1.4 3.1 3.1 0 .3 0 .6-.1.9 0 .1 0 .2.1.2 1.2.2 2.2.8 3 1.7.8.9 1.2 2.1 1.2 3.3 0 3.9-2.9 8.8-7.3 8.8S4.7 15.1 4.7 11.2c0-1.2.4-2.4 1.2-3.3.8-.9 1.8-1.5 3-1.7.1 0 .2-.1.1-.2-.1-.3-.1-.6-.1-.9C8.9 3.4 10.3 2 12 2z" fill="currentColor"/>
+      </svg>
+      <span>DigitalAgency</span>
+    </a>
+    <nav class="nav-links" aria-label="Main navigation">
+      <a href="#services">Services</a>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#faq">FAQ</a>
+      <a href="#contact" class="badge">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<!-- Hero -->
+<section class="hero" id="home">
+  <div class="container center">
+    <p class="muted">Digital Agency</p>
+    <h1>We turn your ideas <br/> into digital projects.</h1>
+    <p>Premium web development and video editing, tailored for your professional and creative needs.</p>
+    <div class="cta cluster center" style="justify-content:center">
+      <a class="btn" href="#contact">Contact Us</a>
+      <a class="btn secondary" href="#services">Our Services</a>
+    </div>
+  </div>
+</section>
+
+<!-- Main Content -->
+<main id="content" class="container">
+
+  <!-- Services -->
+  <section id="services" class="tiles" aria-label="Services">
+
+    <!-- Web Development -->
+    <article class="tile">
+      <div class="visual" style="background-image:url('Images/WebDev.jpeg');"></div>
+      <div>
+        <p class="badge">Coding</p>
+        <h3>Web Development</h3>
+        <p>Showcase sites, e-commerce, custom web apps, and professional automations.</p>
+        <div class="cluster" style="margin-top:1rem">
+          <a class="btn" href="#contact">Contact Us</a>
+        </div>
+      </div>
+    </article>
+
+    <!-- Video Editing -->
+    <article class="tile">
+      <div class="visual" style="background-image:url('Images/video editing.jpg');"></div>
+      <div>
+        <p class="badge">Video</p>
+        <h3>Video Editing</h3>
+        <p>Professional video creation and editing for YouTube, social media, and ads.</p>
+        <div class="cluster" style="margin-top:1rem">
+          <a class="btn" href="#contact">Contact Us</a>
+        </div>
+      </div>
+    </article>
+
+    <!-- Marketing -->
+    <article class="tile">
+      <div class="visual" style="background-image:url('Images/Marketing.webp');"></div>
+      <div>
+        <p class="badge">Marketing</p>
+        <h3>Marketing Strategies</h3>
+        <p>Campaign creation, social media management, and brand growth.</p>
+        <div class="cluster" style="margin-top:1rem">
+          <a class="btn" href="#contact">Contact Us</a>
+        </div>
+      </div>
+    </article>
+
+    <!-- Neuromarketing -->
+    <article class="tile">
+      <div class="visual" style="background-image:url('Images/neuromarketing.jpeg');"></div>
+      <div>
+        <p class="badge">Neuro</p>
+        <h3>Neuromarketing</h3>
+        <p>Behavioral insights and consumer psychology to optimize campaigns.</p>
+        <div class="cluster" style="margin-top:1rem">
+          <a class="btn" href="#contact">Contact Us</a>
+        </div>
+      </div>
+    </article>
+
+    <!-- SEO -->
+    <article class="tile">
+      <div class="visual" style="background-image:url('Images/SEO.webp');"></div>
+      <div>
+        <p class="badge">SEO</p>
+        <h3>Search Engine Optimization</h3>
+        <p>Boost your website’s visibility and organic traffic.</p>
+        <div class="cluster" style="margin-top:1rem">
+          <a class="btn" href="#contact">Contact Us</a>
+        </div>
+      </div>
+    </article>
+
+    <!-- Social Media Management -->
+    <article class="tile">
+      <div class="visual" style="background-image:url('Images/SMM.webp');"></div>
+      <div>
+        <p class="badge">Social</p>
+        <h3>Social Media Management</h3>
+        <p>Content creation, posting, and community engagement.</p>
+        <div class="cluster" style="margin-top:1rem">
+          <a class="btn" href="#contact">Contact Us</a>
+        </div>
+      </div>
+    </article>
+
+  </section>
+
+  <!-- Portfolio -->
+  <section id="portfolio" class="features" aria-label="Portfolio">
+    <div class="feature stack">
+      <h4>Web Project</h4>
+      <p class="muted">A responsive e-commerce site for a professional client.</p>
+    </div>
+    <div class="feature stack">
+      <h4>Promo Video</h4>
+      <p class="muted">Editing of a dynamic and creative marketing campaign video.</p>
+    </div>
+    <div class="feature stack">
+      <h4>Application</h4>
+      <p class="muted">Custom web application for task automation.</p>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section id="faq" class="stack" aria-label="FAQ">
+    <h3 class="center" style="font-size:var(--step-1)">Frequently Asked Questions</h3>
+    <details>
+      <summary>What services do you offer?</summary>
+      <p>Web development, custom applications, video editing, and digital consulting.</p>
+    </details>
+    <details>
+      <summary>How can we work with you?</summary>
+      <p>Contact us via the form, we discuss your project, and send a personalized quote.</p>
+    </details>
+  </section>
+
+<section id="contact" class="cta-section">
+  <div class="cta-card stack">
+    <h3 style="font-size:var(--step-1); margin:0">Ready to start your project?</h3>
+    <p class="muted" style="margin:0">Fill out the form or contact us directly.</p>
+
+    <form id="contact-form" class="contact-form stack" style="margin-top:1rem">
+      <div class="form-grid">
+        <div class="field">
+          <span>Name</span>
+          <input type="text" name="name" id="name" required>
+        </div>
+        <div class="field">
+          <span>Email</span>
+          <input type="email" name="email" id="email" required>
+        </div>
+      </div>
+      <div class="field">
+        <span>Service</span>
+        <select name="service" id="service">
+          <option value="Web Development">Web Development</option>
+          <option value="Video Editing">Video Editing</option>
+          <option value="Marketing">Marketing</option>
+          <option value="Neuromarketing">Neuromarketing</option>
+          <option value="SEO">SEO</option>
+          <option value="SMM">Social Media Management</option>
+        </select>
+      </div>
+      <div class="field" id="message">
+        <span>Message</span>
+        <textarea name="message" rows="4" required></textarea>
+      </div>
+      <button type="submit" class="btn">Send Message</button>
+      <p id="form-status" class="muted" style="margin-top:0.5rem"></p>
+    </form>
+
+    <div class="cluster" style="justify-content:center; margin-top:1rem">
+      <a class="btn" href="mailto:arnaud.chalandat@gmail.com">Send an Email</a>
+    </div>
+  </div>
+</section>
+
+
+
+</main>
+
+<!-- Footer -->
+<footer>
+  <div class="container">
+    <small>© <span id="year"></span> Novira. All rights reserved.</small>
+  </div>
+</footer>
+
+<script>
+  // Mettre l'année automatiquement dans le footer
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>
